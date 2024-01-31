@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styles */
+.card-img-top {
+  
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+/* Title Styles */
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 0.75rem;
+}
+
+.card-img-top {
+    width: 300px;
+    /* Adjust the width as per your design */
+    height: auto;
+    
+    /* Set the desired height for the images */
+    object-fit: cover;
+    /* Ensure the image covers the entire container */
+}
+
+/* Text Styles */
+.card-text {
+    color: #555;
+    margin-bottom: 0.5rem;
+}
